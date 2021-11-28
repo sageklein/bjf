@@ -21,7 +21,7 @@ function App() {
 								alt="Blackjack Farms"
 							/>
 							<p>3331 Hwy 231 N • Shelbyville • TN 37160</p>
-							<p>Phone • 931-437-2573</p>
+							<p>Phone • 931-607-7573</p>
 							<p>
 								Email •{" "}
 								<a
@@ -56,11 +56,10 @@ function App() {
 								alt="Blackjack Farms"
 							/>
 							<p>Family owned buisness</p>
-							<p>All trees only $50 each</p>
 							<p>We have beautiful White Pine Trees</p>
 							<p>
 								Choose and cut down your very own Christmas
-								Tree!
+								Tree for $50 each!
 							</p>
 						</div>
 					</div>

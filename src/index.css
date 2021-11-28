@@ -8,6 +8,17 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', "Audiowide", "Sofia", "Trirong", sans-serif monospace;
+}
+
+h1 {
+  font-family: "Audiowide", sans-serif;
+}
+
+h2 {
+  font-family: "Sofia", sans-serif;
+}
+
+h3 {
+  font-family: "Trirong", serif;
 }

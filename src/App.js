@@ -15,33 +15,37 @@ function App() {
 					<div className="content">
 						<h2>Contact Us</h2>
 						<div id="info">
-            <div className="img">
-							<img
-								src={contact}
-								className="card"
-								alt="Blackjack Farms"
-							/>
-              </div>
-							<p>3331 Hwy 231 N • Shelbyville • TN 37160</p>
-							<p>Phone • 931-607-7573</p>
+							<div className="img">
+								<img
+									src={contact}
+									className="card"
+									alt="Blackjack Farms"
+								/>
+							</div>
 							<p>
-								Email •{" "}
+								<h1>Address</h1>
+								3331 Hwy 231 N <br /> Shelbyville TN 37160
+							</p>
+							<p>
+								{" "}
+								<h1>Phone</h1> 931-607-7573
+							</p>
+							<p>
 								<a
 									className="link"
 									href="mailto:blackjackfarm@charter.net"
 									target="_blank"
 								>
-									blackjackfarm@charter.net
+									Email Us
 								</a>
 							</p>
 							<p>
-								Facebook •{" "}
 								<a
 									className="link"
 									href="https://www.facebook.com/Blackjackfarm/"
 									target="_blank"
 								>
-									facebook.com/blackjackfarm
+									Our Facebook
 								</a>
 							</p>
 						</div>
@@ -52,18 +56,21 @@ function App() {
 					<div className="content">
 						<h2>About Us</h2>
 						<div id="info">
-            <div className="img">
-							<img
-								src={about}
-								className="card"
-								alt="Blackjack Farms"
-							/>
-              </div>
-							<p>Family owned buisness</p>
-							<p>We have beautiful White Pine Trees</p>
+							<div className="img">
+								<img
+									src={about}
+									className="card"
+									alt="Blackjack Farms"
+								/>
+							</div>
+							<p>We Are A Family Owned Buisness</p>
+							<p>We Have Beautiful White Pine Trees</p>
 							<p>
-								Choose and cut down your very own Christmas
-								Tree for $50 each!
+								Choose And Cut Down Your Very Own Christmas Tree
+								Only $50 each
+							</p>
+							<p>
+								We Provide The Saw And Help Tie It To Your Car, Free Of Charge!
 							</p>
 						</div>
 					</div>

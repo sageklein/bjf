@@ -15,11 +15,14 @@ body {
 }
 
 h2 {
-  font-size: 38px;
+  font-family: 'Parisienne', cursive;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 46px;
   color: #066e3a;
-  margin: 1.2px;
+  margin: 1px;
   padding-left: .5em;
-  text-shadow: 1px 1px #063b21;
+  text-shadow: 1px 1px #b2c9be;
 }
 
 .App-logo {
@@ -33,35 +36,38 @@ h2 {
   align-items: center;
 }
 
-
 /* CARDS */
 .main-container{
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin: 2em;
-  padding: 2em;
 }
 
 .card {
   padding-left: .8em;
   align-items: center;
-  width: 250px;
+  width: 280px;
   height: auto;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
-#info{
+.img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#info {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 font-family: "Trirong", serif;
-font-size: 22px;
+font-size: 20px;
 color: white;
-  text-shadow: 1px 1px #8d8d8f;
+text-shadow: 1px 1px #8d8d8f;
 }
 
 .box .content {
@@ -71,8 +77,8 @@ color: white;
 }
 
 .box {
-	width: 500px;
-	height: 610px;
+	width: 480px;
+	height: 700px;
 	box-sizing: border-box;
 	padding: 15px;
 	position: relative;

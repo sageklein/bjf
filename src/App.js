@@ -1,7 +1,7 @@
 import header from "./header1.png";
 import footer from "./footer.png";
-import about from "./santa.jpeg";
-import contact from "./building.jpeg";
+import about from "./santa.png";
+import contact from "./building.png";
 import "./App.css";
 
 function App() {
@@ -15,11 +15,13 @@ function App() {
 					<div className="content">
 						<h2>Contact Us</h2>
 						<div id="info">
+            <div className="img">
 							<img
 								src={contact}
 								className="card"
 								alt="Blackjack Farms"
 							/>
+              </div>
 							<p>3331 Hwy 231 N • Shelbyville • TN 37160</p>
 							<p>Phone • 931-607-7573</p>
 							<p>
@@ -50,11 +52,13 @@ function App() {
 					<div className="content">
 						<h2>About Us</h2>
 						<div id="info">
+            <div className="img">
 							<img
 								src={about}
 								className="card"
 								alt="Blackjack Farms"
 							/>
+              </div>
 							<p>Family owned buisness</p>
 							<p>We have beautiful White Pine Trees</p>
 							<p>

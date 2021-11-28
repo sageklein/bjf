@@ -225,8 +225,8 @@ font-size: 10px;
 }
 
 .box {
-	width: 200px;
-	height: 290px;
+	width: 210px;
+	height: 300px;
 	box-sizing: border-box;
 	padding: 5px;
 	position: relative;

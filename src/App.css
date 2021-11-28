@@ -1,17 +1,29 @@
+/* BODY AND HEADER */
+body {
+  background-color: #80c0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.link {  
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 38px;
+  color: #066e3a;
+  margin: 1.2px;
+  padding-left: .5em;
+  text-shadow: 1px 1px #063b21;
+}
 
 .App-logo {
-  pointer-events: none;
   width: 100%;
-  height: auto;
-}
-
-.link  {  color: inherit;
-    text-decoration: none;
-}
-.card {
-	padding-left: .8em;
-align-items: center;
-  width: 250px;
   height: auto;
 }
 
@@ -21,56 +33,26 @@ align-items: center;
   align-items: center;
 }
 
-body {
-  background-color: #80c0f0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+/* CARDS */
+.main-container{
   align-items: center;
   justify-content: center;
-  font-size: calc(6px + 2vmin);
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2em;
+  padding: 2em;
 }
 
-h2{
-font-size: 38px;
-color: #066e3a;
-margin: 1.2px;
-padding-left: .5em;
-  text-shadow: 1px 1px #063b21;
-}
-
-.main-container{
-align-items: center;
-justify-content: center;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin: 2em;
-padding: 2em;
-}
-
-
-.footer {
+.card {
+  padding-left: .8em;
+  align-items: center;
   width: 250px;
   height: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
-
-.footer-container {
-text-align: center;
-margin-bottom: -40px;
-padding: 80px;
-padding-bottom: 50px;
-}
-
-
-
-.box .content {
-	height: 100%;
-	display: flex;
-	background-color: #80c0f0;
-}
-
 
 #info{
 display: flex;
@@ -82,21 +64,27 @@ color: white;
   text-shadow: 1px 1px #8d8d8f;
 }
 
+.box .content {
+	height: 100%;
+	display: flex;
+	background-color: #80c0f0;
+}
+
 .box {
 	width: 500px;
-	height: 560px;
+	height: 610px;
 	box-sizing: border-box;
 	padding: 15px;
 	position: relative;
 	overflow: hidden;
-  margin: 2em;
+  margin: 1em;
 }
 
 .box::before {
 	content: '';
 	position: absolute;
-	width: 150%;
-	height: 150%;
+	width: 200%;
+	height: 200%;
 	background: repeating-linear-gradient(
 			white 0%,
 			white 7.5px,
@@ -128,10 +116,6 @@ color: white;
 	border-radius: 4px;
 }
 
-/* .box .content h2 {
-	color: #7D0E1B;
-} */
-
 .box .content p {
 	color: whitesmoke;
   margin: 15px;
@@ -147,3 +131,23 @@ color: white;
 	}
 }
 
+/* FOOTER */
+.footer {
+  width: 250px;
+  height: auto;
+}
+
+.footer-container {
+  text-align: center;
+  margin-bottom: -40px;
+  padding: 80px;
+  padding-bottom: 50px;
+}
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px){
+  
+
+}

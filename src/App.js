@@ -22,8 +22,26 @@ function App() {
 							/>
 							<p>3331 Hwy 231 N • Shelbyville • TN 37160</p>
 							<p>Phone • 931-437-2573</p>
-							<p>Email • blackjackfarm@charter.net</p>
-							<p>Facebook • facebook.com/blackjackfarm</p>
+							<p>
+								Email •{" "}
+								<a
+									className="link"
+									href="mailto:blackjackfarm@charter.net"
+									target="_blank"
+								>
+									blackjackfarm@charter.net
+								</a>
+							</p>
+							<p>
+								Facebook •{" "}
+								<a
+									className="link"
+									href="https://www.facebook.com/Blackjackfarm/"
+									target="_blank"
+								>
+									facebook.com/blackjackfarm
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>

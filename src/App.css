@@ -5,6 +5,9 @@
   height: auto;
 }
 
+.link  {  color: inherit;
+    text-decoration: none;
+}
 .card {
 	padding-left: .8em;
 align-items: center;
@@ -80,13 +83,13 @@ color: white;
 }
 
 .box {
-	width: 560px;
-	height: 630px;
+	width: 500px;
+	height: 560px;
 	box-sizing: border-box;
 	padding: 15px;
 	position: relative;
 	overflow: hidden;
-  margin: 3em;
+  margin: 2em;
 }
 
 .box::before {

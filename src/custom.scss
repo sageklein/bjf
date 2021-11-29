@@ -201,15 +201,6 @@ h1 {
   margin: 12px;
 }
 
-@keyframes animate {
-	from {
-		background-position: 0;
-	}
-
-	to {
-		background-position: 0 450px;
-	}
-}
 
 /* FOOTER */
 .footer {
@@ -390,7 +381,55 @@ h1 {
 		background-position: 0 450px;
 	}
 }
-
+.snow {
+    border-radius: 50%;
+    opacity: 0.9;
+    position: absolute;
+    top:-100vh;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.layer1 {
+    width: .6rem;
+    height: .6rem;
+    filter:blur(.8px);
+    box-shadow: #{$s1};
+    animation-duration: 14s;
+}
+.layer1.a {
+    animation-delay: -3s;
+}
+.layer2 {
+    width: .4rem;
+    height: .4rem;
+    filter:blur(.6px);
+    box-shadow: #{$s3};
+    animation-duration: 12s;
+}
+.layer2.a {
+    animation-delay: -4s;
+}
+.layer3 {
+    width: 0.7rem;
+    height: 0.7rem;
+    filter:blur(.5px);
+    box-shadow: #{$s3};
+    animation-duration: 14s;
+}
+.layer3.a {
+    animation-delay: -5s;
+}
+.layer4 {
+	width: .3rem;
+	height: .3rem;
+	filter: blur(.6px);
+	box-shadow: #{$s1};
+	animation-duration: 10s;
+}
+.layer4.a {
+	animation-delay: -5s;
+}
 /* FOOTER */
 .footer {
   width: 100px;
